@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def start():
+    print("seem to work\n")
     
     return render_template("index.html")
 
