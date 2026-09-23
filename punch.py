@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def start():
-    print("villone sta a fa brutta roba\n")
+    print("villone sta a fabrutta roba\n")
     
     return render_template("index.html")
 
